@@ -3,18 +3,15 @@
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: rgb(187, 193, 199);
+    background-image: url(https://wallpapercave.com/wp/wp12215927.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#container {
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-    background-color: white;
-    border: 3px solid #000000;
-}
+#container h2, #container h1, #container h3, #container p, #container li{
+    color: white;
 
+}
 p {
 	margin-bottom: 20px;
 	}
@@ -23,14 +20,21 @@ p {
 	margin-bottom: 20px;
 }	
 
-.img-style-1 {
+img {
 	float: left;
 	margin-right: 10px;
     margin-bottom: 10px;
 	padding: 5px;
-	border: 2px solid #000000;
+	border: 3px solid white;
 }	
 	
+#Resume p a{
+    color: #ea758c;
+}
+
+#Contact p a{
+    color: #ea758c;
+}
 /* tutorial styles */
 
 /* tabs */
@@ -38,8 +42,12 @@ p {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 2px solid #000000;
-    background-color: #f09acc;
+    border: 2px solid white;
+    background-color: #b887b1;
+}
+
+.tablinks {
+    color: white;
 }
 
 /* Style the buttons inside the tab */
@@ -56,12 +64,12 @@ p {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ffe1f9;
+    background-color: #d0295b;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ffe1f9;
+    background-color: #d0295b;
 }
 
 /* Style the tab content */
