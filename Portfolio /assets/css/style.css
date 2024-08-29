@@ -1,20 +1,9 @@
 /*  body */
 	
 body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: "Baskervville SC", serif;
 	background-color: rgb(187, 193, 199);
     background-image: url(https://wallpapercave.com/wp/wp12215927.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#container {
-	width: 2000px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-    border: 2px solid white;
 }
 
 
@@ -31,10 +20,10 @@ p {
 }	
 
 img {
-	float: left;
 	margin-right: 10px;
     margin-bottom: 10px;
 	border: 3px solid white;
+    float: left;
 }	
 	
 #Resume p a{
