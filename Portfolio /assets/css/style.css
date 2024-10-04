@@ -28,10 +28,10 @@ img{
   
   body {
     font-family: 'Playfair Display', serif;
-    background-color: #b887b1;
-    background-image: url(https://i.pinimg.com/originals/6f/3d/48/6f3d48716f25610df2f6d968aabd4d4f.jpg);
+    background: linear-gradient(#ea758c, #FCCCDA);
     background-size:cover;
     background-repeat: no-repeat;
+    background-size: 300vw 300vh;
   }
 
   main{ 
@@ -41,11 +41,7 @@ img{
     margin-right:auto;
     margin-bottom:40px;
     margin-left:auto;  
-
-    /* 4 Value Shorthand T, R, B, L*/
     margin: 40px auto 40px auto; 
-
-    /* 2 Value Shorthand T/B, L/R*/
     margin: 40px auto;
     border: 2px solid #b887b1; 
     border-radius: 4px;
@@ -54,9 +50,6 @@ img{
     header.primary { 
     background-color:#EDBFB7; 
     background-image: url(https://wallpapercave.com/wp/wp12215927.png);
-    /* local path 
-      background-image: url("../img/bg_1.png")
-    */
     background-size:cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -157,20 +150,6 @@ article.post .post-content{
   grid-area: post-content;
   
 }
-article.post .post-meta{
-  grid-area: footer;
-}
-
-aside .container{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-gap:20px;
-}
-
-aside .widget:first-of-type{
-  border-right:1px dotted #ea758c;
-  padding-right:20px;
-}
 
 footer.post-meta a{
   color:#ea758c
@@ -184,14 +163,6 @@ footer.post-meta a{
   background-repeat: no-repeat;
   padding:20px;
   color:#ea758c;
-}
-
-article.widget a{
-  color:#ea758c
-}
-
-article.widget p{
-  color:#ffffff
 }
 
 p {
